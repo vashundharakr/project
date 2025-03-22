@@ -1,0 +1,53 @@
+{
+    "garages": [
+      {
+        "id": 1,
+        "image": "garage-1",
+        "address": "123 Main St, City",
+        "location": "Downtown",
+        "vehicleTypes": ["Car", "Bike"],
+        "chargePerHour": { "Car": 50, "Bike": 20 }
+      },
+      {
+        "id": 2,
+        "image": "garage-2",
+        "address": "456 Elm St, City",
+        "location": "Suburb",
+        "vehicleTypes": ["Van", "Cycle"],
+        "chargePerHour": { "Van": 70, "Cycle": 15 }
+      },
+      {
+        "id": 3,
+        "image": "garage-3",
+        "address": "456 Elm St, City",
+        "location": "Suburb",
+        "vehicleTypes": ["Van", "Cycle"],
+        "chargePerHour": { "Van": 70, "Cycle": 15 }
+      },
+      {
+        "id": 4,
+        "image": "garage-4",
+        "address": "456 Elm St, City",
+        "location": "Suburb",
+        "vehicleTypes": ["Van", "Cycle"],
+        "chargePerHour": { "Van": 70, "Cycle": 15 }
+      },
+      {
+        "id": 5,
+        "image": "garage-5",
+        "address": "456 Elm St, City",
+        "location": "Suburb",
+        "vehicleTypes": ["Van", "Cycle"],
+        "chargePerHour": { "Van": 70, "Cycle": 15 }
+      },
+      {
+        "id": 6,
+        "image": "garage-6",
+        "address": "456 Elm St, City",
+        "location": "Suburb",
+        "vehicleTypes": ["Van", "Cycle"],
+        "chargePerHour": { "Van": 70, "Cycle": 15 }
+      }
+    ]
+  }
+  

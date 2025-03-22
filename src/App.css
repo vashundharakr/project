@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li{
+  list-style: none;
+}
+
+.chatbotclass{
+  opacity: 100000;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  background-color: #353535;
+  width: 12px;
+  height: 12px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #d1357e !important;
+}
+
+.carousel .slide img {
+  width: 100%;          /* Ensures the image takes full width */
+  height: 400px;        /* Adjust height to fit the section */
+  object-fit: cover;    /* Crops images to maintain aspect ratio */
+  border-radius: 10px;  /* Optional: adds smooth rounded edges */
+}
+
+.carousel .control-dots {
+  bottom: 10px;         /* Adjusts dot indicators position */
+}
+
+.carousel .control-arrow {
+  background: rgba(0, 0, 0, 0.3); /* Adds a semi-transparent background to arrows */
+  border-radius: 50%;    /* Circular navigation arrows */
+}
+
